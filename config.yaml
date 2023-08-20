@@ -1,0 +1,14 @@
+GitHubJobSearchTool:
+  MY_ENV_VAR: 'YOUR_GITHUB_VALUE'
+JoobleJobSearchTool:
+  MY_ENV_VAR: 'YOUR_JOOBLE_VALUE'
+CareerjetJobSearchTool:
+  MY_ENV_VAR: 'YOUR_CAREERJET_VALUE'
+SimplyHiredJobSearchTool:
+  MY_ENV_VAR: 'YOUR_SIMPLYHIRED_VALUE'
+
+python -m unittest test_JoobleJobSearch
+
+python -m unittest test_CareerjetJobSearch
+python -m unittest test_SimplyHiredJobSearch
+python -m unittest test_GitHubJobSearch
